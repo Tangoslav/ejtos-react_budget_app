@@ -11,3 +11,111 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.increase-button {
+    color: green;
+    font-size: 1.5em;
+    cursor: pointer;
+    margin-right: 0.5rem;
+}
+
+.increase-button:hover {
+    color: darkgreen;
+}
+
+.decrease-button {
+    color: red;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+.decrease-button:hover {
+    color: darkred;
+}
+
+.budget-container {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.budget-input-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.budget-input {
+    display: flex;
+    align-items: center;
+}
+
+.currency-symbol {
+    margin-right: 5px;
+}
+
+.budget-button {
+    margin-left: 10px;
+    font-size: 1.5em;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.budget-button:hover {
+    background-color: #0056b3;
+}
+
+.save-button {
+    margin-left: 10px;
+    font-size: 1em;
+    color: white;
+    background-color: #28a745;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.save-button:hover {
+    background-color: #218838;
+}
+
+.budget-summary {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.remaining-budget, .spent-so-far {
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.remaining-budget {
+    background-color: #d4edda;
+}
+
+.spent-so-far {
+    background-color: #cce5ff;
+}
+
+.currency-selector {
+    display: flex;
+    align-items: center;
+}
+
+.custom-select {
+    margin-left: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    cursor: pointer;
+}
+
